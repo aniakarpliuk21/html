@@ -1,0 +1,102 @@
+body{
+    font-family: 'KoHo', sans-serif;
+    margin: 0;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+}
+/*-----------------------------------Page1___________________________________-*/
+.one {
+    background-image: url("image 4.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 529px;
+    height:393px;
+    background-image: url("image 3.png");
+    background-size: cover;
+
+}
+.text{
+    width: 529px;
+    height: 393px;
+    background-color: #FAF9F7;
+    color:#000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textOne{
+    font-size: 45px;
+    margin:20px;
+}
+.textTwo{
+    font-size: 25px;
+    margin: 30px;
+}
+button{
+    width:87%;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    margin: 30px;
+}
+.textThree{
+    font-size: 30px;
+}
+/*--------------------------------------------Page2------------------------------------*/
+.two{
+    background-image: url("image5.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.pageTwo{
+    width: 63vw;
+    height:10vh;
+    margin: 30px;
+
+}
+iframe{
+    width:63vw;
+    height: 53vh;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+/*-----------------------------------------page3------------------------------------*/
+.three{
+    background-image: url("image6.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+aside{
+    width:30%;
+    height: 68%;
+    background-color: rgba(83, 83, 83, 0.40);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.imageThree{
+    width:90%;
+    height:32%;
+    background-size: cover;
+}
+p{
+    margin: 10px;
+}
+
