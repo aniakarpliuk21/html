@@ -5,43 +5,40 @@
     <title>Instagram</title>
     <style>
         body {
+            width: 100vw;
+            height: 100vh;
             margin: 0;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
-
         .one {
-            width: 25vw;
-            height: 45vh;
-            padding: 20px 10px;
-            margin: 30px;
+            width: 320px;
+            height: 360px;
             border: 2px solid lightgray;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            text-overflow: ellipsis;
+            margin:12px;
         }
-
-        form {
-            width: 85%;
-            height: 50%;
-            margin: 20px;
+        .imageOne{
+            width: 180px;
+            height:70px;
+            margin: 15px;
         }
-
-        img {
-            width: 70%;
-            height: 20%;
-            margin: 20px 20px 0 20px;
+        form{
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+            flex-direction: column;
         }
-
         input[type="text"],
         input[type="password"] {
-            width: 98%;
-            height: 50%;
-            margin: 4px;
+            width:240px;
+            height: 30px;
+            margin: 2px;
             text-overflow: ellipsis;
             font-size: 12px;
             background-color: #f3efef;
@@ -50,9 +47,9 @@
         }
 
         button {
-            width: 87%;
-            height: 20%;
-            margin: 10px 0 10px 7px;
+            width:245px;
+            height: 32px;
+            margin: 10px;
             padding: 8px;
             background-color: #59a6ef;
             text-align: center;
@@ -60,34 +57,25 @@
             border-color: #59a6ef;
             color: white;
         }
+        .imageFace{
+            width: 18px;
+            height: 18px;
 
-        .image {
-            width: 25px;
-            height: 25px;
-            background-size: cover;
-            margin: -2px;
         }
-
-        a {
-            margin: 30px;
-        }
-
-        .two {
-            width: 25vw;
-            height: 5vh;
-            padding: 20px 10px;
+        .two{
+            width:320px;
+            height:60px;
             border: 2px solid lightgray;
             display: flex;
             justify-content: center;
             align-items: center;
         }
-
     </style>
 </head>
 <body>
-<div class="one">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/640px-Instagram_logo.svg.png"
-         alt="image">
+<section class="one">
+        <img class="imageOne" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/640px-Instagram_logo.svg.png"
+             alt="image">
     <form>
         <label for="name"></label>
         <input type="text" name="username" placeholder="Номер телефону,ім'я користувача або емейл"
@@ -96,21 +84,18 @@
         <input type="password" name="password" placeholder="Пароль" id="password">
     </form>
     <button><b>Увійти</b></button>
-    <br>
     <span style="color:dimgray;">АБО</span>
     <br>
     <div class="face">
-        <img class="image" src="img15.png" alt="image">
-        <a style="text-decoration: none;color: darkblue;margin: 0; font-size: 16px" href="#"><b>Увійти
-            через Facebook</b></a>
+        <img class="imageFace" src="img15.png" alt="image">
+        <a style="text-decoration: none;color: #0a4f9a" href="#"><b>Увійти через Facebook</b></a>
     </div>
-    <a style="text-decoration: none;color: darkblue;margin:15px; font-size: 12px" href="#"><b>Забули
-        пароль?</b></a>
-</div>
-
-<div class="two">
-    <span style="margin:0"><b>Не маєте облікового запису? </b></span>
-    <a style="text-decoration: none;color: #59a6ef; margin: 0 3px;" href="#"><b>Зареєструйся</b></a>
-</div>
+    <br>
+    <a style="text-decoration: none;color:#1010a9;font-size: 14px;" href="#">Забули пароль?</a>
+</section>
+<section class="two">
+    <span><b>Не маєте облікового запису? </b></span>
+    <a style="text-decoration: none;color: #378cda;" href="#"><b>Зареєструйся</b></a>
+</section>
 </body>
 </html>
