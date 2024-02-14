@@ -1,0 +1,27 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-size: 25px;
+}
+footer, article{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5%;
+}
+footer{
+    width:99%;
+    height: 29.5%;
+}
+main{
+    height:69.5%;
+    display: flex;
+}
+.one{
+    width: 69%;
+}
+.two{
+    width: 29%;
+}

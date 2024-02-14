@@ -1,0 +1,23 @@
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    body {
+        font-size: 15px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid {
+        display: grid;
+        width: 100%;
+        height: 75%;
+    }
+
+    aside {
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

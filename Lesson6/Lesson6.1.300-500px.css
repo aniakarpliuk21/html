@@ -1,0 +1,20 @@
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    body {
+        font-size: 15px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one {
+        width: 99vw;
+        height: 80%;
+    }
+
+    .two {
+        width: 99vw;
+        height: 20%;
+    }
+}
