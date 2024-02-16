@@ -1,0 +1,254 @@
+body{
+    background-color:#19191B;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    width: 83.34vw;
+    height:4.88vh;
+    margin:3.8vh 8.33vw 3.8vh 8.33vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.header>img{
+    width: 2.77vw;
+    height: 2.77vw;
+}
+.header>p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.73vh;
+    font-weight: 700;
+    color: white;
+}
+header>div.none>{
+    display: block;
+}
+#home{
+    color:#5454D4;;
+    font-size: 1.75vh;
+    font-weight: 600;
+    padding: 10px;
+}
+header>div>span{
+    color:rgba(255, 255, 255, 0.70);
+    font-size: 1.75vh;
+    padding: 10px;
+}
+header>button{
+    width: 10.9vw;
+    height:4.3vh;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.56vh;
+    background-color: #19191B;
+}
+
+/*------------------------------------Section-1------------------------------*/
+.oneBox{
+    width: 88.06vw;
+    height:78.8vh;
+    margin:0 3.61vw 0 8.33vw;
+    display: flex;
+}
+.one{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 20px 0;
+    justify-content: center;
+}
+section.oneBox>div.one>p{
+    font-size: 5.85vh;
+    color: white;
+    margin:0;
+}
+section.oneBox>div.one>span{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 2.05vh;
+    margin:25px 0;
+}
+section.oneBox>div.one>button{
+    width:14.16vw;
+    height:5.67vh;
+    border-radius: 4px;
+    background: #5454D4;
+    color: #FFF;
+    font-size: 1.95vh;
+    font-weight: 700;
+}
+section.oneBox>div>img{
+    width:100%;
+    height:100%;
+}
+/*------------------------------------------Section-2-----------------------------*/
+.twoBox, .threeBox, .fourBox, .fiveBox, .sixBox{
+    width: 83.34vw;
+    margin:0 8.33vw 0 8.33vw;
+}
+.twoBox{
+    height:96.45vh;
+}
+.two{
+    display: flex;
+}
+section.twoBox>div.two>div{
+    width: 50%;
+    margin:40px 0;
+}
+section.twoBox>div.two>div>span{
+    color: #FFF;
+    font-size: 5.85vh;
+    margin:0;
+}
+section.twoBox>div.two>div>p{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 1.95vh;
+    line-height: 3.8vh;
+}
+section.twoBox>img{
+    width:83.33vw;
+    height:64vh;
+
+}
+/*-----------------------------------Section-3----------------------------------*/
+.threeBox{
+    height:103.9vh;
+    margin-top:4.64vh;
+}
+.three{
+    height:13.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 5.85vh;
+    padding: 30px;
+}
+.four{
+    height:80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section.threeBox>div.four>article{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section.threeBox>div.four>article>div{
+    width: 69px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+section.threeBox>div.four>article>h5{
+    color: #FFF;
+    font-size: 2.73vh;
+    font-weight: 600;
+    margin: 30px;
+}
+section.threeBox>div.four>article>span{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 1.95vh;
+    text-align: center;
+}
+/*---------------------------------------Section-4------------------------------------*/
+section.fourBox{
+    height:77.34vh;
+}
+section.fourBox>h3{
+    color: #FFF;
+    font-size: 5.66vh;
+    font-weight: 800;
+}
+section.fourBox>div.six{
+    height: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section.fourBox>div.six>div.five, section.fourBox>div.six>div.fiveOne, section.fourBox>div.six>div.fiveTwo{
+    width: 26.6vw;
+    height:20.9vw;
+    border-radius: 14px;
+    background-color: #1E1E20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.fourBox>div.six>div.five>img, section.fourBox>div.six>div.fiveOne>img,section.fourBox>div.six>div.fiveTwo>img{
+    width: 23.33vw;
+    height: 17.56vw;
+    border-radius: 12px;
+}
+/*--------------------------------Section-5-----------------------------------------*/
+section.fiveBox{
+    height:40.41vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(30, 30, 32, 0.50);
+}
+section.fiveBox>p{
+    width: 65%;
+    color: #FFF;
+    font-size: 5.85vh;
+}
+section.fiveBox>button{
+    width: 13.95vw;
+    height:5.85vh;
+    border-radius: 5px;
+    background: #5454D4;
+    color: #FFF;
+    text-align: center;
+    font-size:2.05vh;
+    font-weight: 700;
+}
+/*--------------------------Section-6---------------------------------------------------*/
+section.sixBox{
+    height:10.67vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:4vh;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.footer>img{
+    width: 2.77vw;
+    height:2.77vw;
+}
+.footer>p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.73vh;
+    font-weight: 700;
+    color: white;
+}
+section.sixBox>p{
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+    font-size: 1.56vh;
+}
+section.sixBox>span{
+    display: none;
+}

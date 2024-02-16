@@ -1,0 +1,184 @@
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    header {
+        width: 87.2vw;
+        height: 9vh;
+        margin: 3.99vh 6.4vw;
+        display: block;
+    }
+
+    .header {
+        display: flex;
+        justify-content: left;
+    }
+
+    .header > img {
+        width: 2.77vw;
+        height: 2.77vw;
+    }
+
+    .header > p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 2.73vh;
+        font-weight: 700;
+        color: white;
+    }
+
+    header > div.none {
+        display: none;
+    }
+
+    header > button {
+        display: none;
+    }
+
+    /*------------------------------------Section-1------------------------------*/
+    .oneBox, .twoBox, .threeBox, .fourBox, .fiveBox, .sixBox {
+        width: 87.2vw;
+        margin: 0 6.4vw;
+    }
+
+    .oneBox {
+        height: 133.01vh;
+        display: block;
+    }
+
+    .one {
+        width: 100%;
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
+    }
+
+    section.oneBox > div.one > p {
+        line-height: 1.5;
+    }
+
+    section.oneBox > div.one > button {
+        width: 44.42vw;
+        height: 6.59vh;
+    }
+
+    section.oneBox > div > img {
+        width: 87.2vw;
+        height:27.58vh;
+    }
+
+    /*------------------------------------------Section-2-----------------------------*/
+    .twoBox {
+        height: 63.95vh;
+        display: block;
+    }
+
+    .two {
+        display: block;
+    }
+
+    section.twoBox > div.two > div {
+        width: 100%;
+        margin: 4.49vh 0;
+    }
+
+    section.twoBox > img {
+        width: 84.2vw;
+        height: 27.58vh;
+    }
+
+    /*-----------------------------------Section-3----------------------------------*/
+    .threeBox {
+        height: 320vh;
+        margin-top: 4.64vh;
+    }
+
+    .three {
+        height: 22.98vh;
+        display: block;
+    }
+
+    .four {
+        height: 80%;
+        display: block;
+    }
+
+    section.threeBox > div.four > article {
+        width: 75%;
+        margin: 20vh 10%;
+    }
+
+    /*---------------------------------------Section-4------------------------------------*/
+    section.fourBox {
+        height: 77.34vh;
+        margin-top: 10vh;
+    }
+
+    section.fourBox > div.six {
+        height: 55%;
+        display: block;
+    }
+
+    section.fourBox > div.six > div.five {
+        width: 86vw;
+        height: 34vh;
+    }
+
+    section.fourBox > div.six > div.fiveOne, section.fourBox > div.six > div.fiveTwo {
+        display: none;
+    }
+    section.fourBox > div.six > div.five > img {
+        width: 84vw;
+        height: 31vh;
+    }
+
+    /*--------------------------------Section-5-----------------------------------------*/
+    section.fiveBox {
+        height: 40.41vh;
+        display: block;
+    }
+
+    section.fiveBox > p {
+        line-height: 1.5;
+    }
+
+    section.fiveBox > button {
+        width: 44.26vw;
+        height: 6.59vh;
+    }
+
+    /*--------------------------Section-6---------------------------------------------------*/
+    section.sixBox {
+        height: 50vh;
+        display: block;
+        margin-top: 20vh;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer > img {
+        width: 7.2vw;
+        height: 7.2vw;
+    }
+
+    .footer > p {
+        font-size: 4.19vh;
+    }
+
+    section.sixBox > span {
+        display: block;
+        color: rgba(255, 255, 255, 0.70);
+        font-size: 2.69vh;
+        font-weight: 700;
+        line-height: 4;
+        text-align: center;
+    }
+
+    section.sixBox > p {
+        color: #FFF;
+        text-align: center;
+        font-size: 2.69vh;
+    }
+}
