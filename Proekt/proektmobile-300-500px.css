@@ -137,7 +137,9 @@
     }
 
     section.fiveBox > p {
+        width: 100%;
         line-height: 1.5;
+        font-size: 5.4vh;
     }
 
     section.fiveBox > button {
